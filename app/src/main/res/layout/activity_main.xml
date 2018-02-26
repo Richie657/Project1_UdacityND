@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9D00"
+    tools:context="com.example.android.project1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#fce6d7"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/logo"
+            android:layout_height="@dimen/logo"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:src="@drawable/trumplogo" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/donaldtrump" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin8"
+            android:fontFamily="cursive"
+            android:paddingTop="@dimen/pres"
+            android:text="@string/presidential_school"
+            android:textColor="@color/black"
+            android:textSize="@dimen/prests"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:text="@string/of"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tsof"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:text="@string/etiquette"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tsof"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginTop="@dimen/marint24"
+            android:text="@string/www_grabthat_com"
+            android:textColor="@color/black"
+            android:textSize="@dimen/web" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginTop="@dimen/margint16"
+            android:text="@string/_08_80085_90557"
+            android:textColor="@color/black"
+            android:textSize="@dimen/web" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margint16"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_marginTop="@dimen/margint16"
+            android:text="@string/coming_to_a_golf_course_near_you"
+            android:textColor="@color/black"
+            android:textSize="@dimen/web" />
+
+
+    </LinearLayout>
+</ScrollView>

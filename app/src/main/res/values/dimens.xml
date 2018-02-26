@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo">100dp</dimen>
+    <dimen name="pres">16dp</dimen>
+    <dimen name="prests">38sp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="tsof">38sp</dimen>
+    <dimen name="web">18sp</dimen>
+    <dimen name="marint24">24dp</dimen>
+    <dimen name="margint16">16dp</dimen>
+</resources>
